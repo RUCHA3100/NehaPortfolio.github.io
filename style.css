@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap'); /*importing fonts*/
+/* it is a universal sector for the whole page of website*/
+
+.divider-grey {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 50px;
+    border-top: 2px solid #630000;
+    padding-bottom: 40px;
+}
+body{
+  background-color: #fff;
+  left: 0;
+  right: 0;
+}
+
+.container-fluid{
+  background-color: #FFF3E4;
+}
+/* navbar */
+.navbar.sticky{       /*if we have two class of one element then dont give space */
+  padding: 0 0;
+  background: #630000;
+  /* background:linear-gradient(#630000,#FFF3E4); */
+  color: #fff;
+  left:0;
+  right:0;
+  }
+  .navbar.sticky .navbar-brand{
+    color:#fff;
+  }
+  .navbar.sticky .nav .nav-item a{
+    color:#fff !important;
+  }
+  .navbar.sticky .nav li a:hover{
+      color: #fff;
+  }
+.navbar{
+  transition: all 0.3s ease;
+  z-index: 999;
+  position:fixed;
+  font-family: 'Poppins',sans-serif;
+}
+.navbar-brand{
+  margin-left: 100px;
+  font-weight: 600;
+  font-size:1.5rem;
+  color: #630000;
+}
+.collapse{
+  justify-content: left;
+  margin-left: 765px;
+}
+.nav{
+  margin-right: 100px;
+}
+.nav .nav-item a{
+  font-family: 'Ubuntu',sans-serif;
+  transition:color 0.3 ease-out;
+ color: #630000;
+}
+.nav .nav-item a:hover{
+  color:#ce0707;
+ 
+}
+/* name */
+.nameinfo{
+  background-color: #FFF3E4;
+  display: flex;
+}
+.name-container{
+  text-align: left;
+color:#630000;
+  padding:10% 10%;
+  font-family: 'Ubuntu', sans-serif;
+ background-color: #FFF3E4;
+
+}
+ .text-1{
+  font-size: 27px;
+  padding-top: 80px;
+ }
+ .text-2{
+  font-size: 75px;
+  font-weight: 600;
+margin-left: -3;
+}
+ .text-3{
+  font-size: 40px;
+  margin:5px 0;
+}
+.text-3 span{
+  color: #630000;
+  font-weight: 500;
+}
+.program{
+  /* border: 2px solid red; */
+}
+.programmer{
+ margin-left:340px;
+ height:268px;
+ width: 260px;
+ margin-top: 200px;
+}
+
+/*about me */
+.img{
+   box-shadow: 5px 5px #630000;
+}
+.about{
+  margin-top:100px;
+  margin-left:100px;
+  margin-right:100px;
+  text-align: center;
+ }
+.about1{
+  transition-property: height;
+ margin-bottom: 100px;
+ background-color: #FFF3E4;
+ box-shadow: 5px 5px #630000;
+ color: #000000;
+ height:120%;
+}
+ .about1:hover{
+  box-shadow:3px 3px 3px 3px #b3b3b1;
+  border-radius: 8px;
+  height:100%;
+} 
+.ulabout{
+  text-align: left;
+  margin:35px;
+  line-height: 1.5;
+}
+li{
+  margin:10px;
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 1.4rem;
+}
+
+
+h2{
+color:#630000;
+  font-size: 2em;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: cursive;
+font-weight: bold;
+}
+
+/*more about me*/
+.moreabout{
+ margin-left: 100px;
+  margin-right: 100px;
+ display: grid;
+  grid-template-columns:auto auto;
+}
+.more{
+margin-right:20px;
+width:500px;
+background-color: #FFF3E4;
+ box-shadow: 5px 5px #630000;
+ color: #000000;
+}
+.aboutli{
+  list-style: none;
+}
+.more:hover{
+  box-shadow:3px 3px 3px 3px #b3b3b1;
+  border-radius: 8px;
+  height:100%;
+}
+.slides{
+  background-color: #FFF3E4;
+ box-shadow: 5px 5px #630000;
+ color: #000000;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-right: 0;
+  margin-left:5px;
+  width:795px;
+ }
+ .slideimg{
+margin-left:90px;
+margin-right: 90px;
+height:400px ;
+width: 600px !important;
+ }
+ 
+ .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+ background-size: 100%, 100%;
+  background-image: none;
+  color: #630000;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:#630000 ;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #630000;
+}
+
+
+/*assignment*/
+.assign{
+  display: inline;
+  margin-left: 100px;
+  margin-right: 100px;
+text-align: center;
+
+}
+.assi-col{
+  padding: 1% 2%;
+
+}
+.card{
+  transition-property: height;
+ border-radius: 0px;
+  background-color: #FFF3E4;
+  box-shadow: 5px 5px #630000;
+  color: #000000;
+}
+.card-text{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 25px;
+}
+.card:hover{
+  box-shadow:3px 3px 3px 3px #b3b3b1;
+  border-radius: 8px;
+  height:110%;
+}
+/*skills*/
+h5{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: 700;
+}
+.ski{
+  margin-bottom:6px;
+
+  
+}
+.skill{
+  margin-top: 100px;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+ 
+}
+.progress-bar{
+  background-color: #630000;
+}
+.skilldiv{
+  margin-top: 30px;
+  transition-property: height;
+  background-color: #FFF3E4;
+  box-shadow: 5px 5px #630000;
+  color: #000000;
+height:300px;
+padding-bottom: 50px;
+}
+.skilldiv:hover{
+  box-shadow:3px 3px 3px 3px #b3b3b1;
+  border-radius: 8px;
+ 
+} 
+/*contact*/
+.contact{
+margin:100px;
+}
+.imgg{
+  box-shadow: 5px 5px #630000 ;
+  margin-top: 5px;
+}
+input, textarea{
+  box-shadow: 4px 4px #630000 ;
+ 
+  padding:2px;
+  margin: 10px;
+  background-color: #FFF3E4;
+}
+
+#message{
+  padding-right: 378px;
+
+}
+.contact  .text {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:#630000 ;
+    margin-left: 10px;
+}
+.button-area{
+  margin-left: 8px;
+}
+
+.btn {
+  background:  #483434;
+  background-image: -webkit-linear-gradient(top,  #483434, #630000);
+  background-image: -moz-linear-gradient(top,  #483434, #630000);
+  background-image: -ms-linear-gradient(top,  #483434, #630000);
+  background-image: -o-linear-gradient(top,  #483434, #630000);
+  background-image: linear-gradient(to bottom,  #483434, #630000);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  font-family: Arial;
+  color: #ffff;
+  font-size: 20px;
+  padding: 8px 22px 8px 22px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFF3E4;
+  color: #000;
+  font-weight: 700;
+  background-image: -webkit-linear-gradient(top, #FFF3E4, #FFF3E4);
+  background-image: -moz-linear-gradient(top, #483434, #FFF3E4);
+  background-image: -ms-linear-gradient(top, #483434, #FFF3E4);
+  background-image: -o-linear-gradient(top, #483434, #FFF3E4);
+  background-image: linear-gradient(to bottom, #483434, #FFF3E4);
+  text-decoration: none;
+}
+
+/*footer*/
+#footer{
+  background-color:#FFF3E4;
+  color: #630000;
+  text-align: center;
+  padding-top:5%;
+  padding-bottom:10%;
+}
+.foot{
+  color: #000;
+}
+.ico{
+  padding: 2%;
+}
